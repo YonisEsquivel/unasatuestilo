@@ -39,18 +39,29 @@ h1, h3 {
   align-items: center;
 }
 
-.menu {
-  margin-top: 35px;
-}
-
 .menu-main {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin: 0 20px;
 }
 
 .slider {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
+}
+
+.slider-left {
+  margin-right: 5px;
+}
+
+.slider-right {
+  margin-left: 5px;
 }
 
 .slider picture {
