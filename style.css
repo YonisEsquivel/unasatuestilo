@@ -39,6 +39,10 @@ h1, h3 {
   align-items: center;
 }
 
+.menu {
+  margin-top: 34px;
+}
+
 .menu-main {
   display: flex;
   justify-content: center;
@@ -64,8 +68,33 @@ h1, h3 {
   margin-left: 5px;
 }
 
-.slider picture {
+.promocion {
+  text-align: center;
 }
 
-.slider img {
+.promocion h2 {
+  margin: 50px 0;
 }
+
+.footer {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+
+.location p {
+  margin: 0;
+}
+
+.location p,
+.location a,
+.social a {
+  display: block;
+}
+
+/*.location, .social {
+  margin: 0 20px;
+}*/
