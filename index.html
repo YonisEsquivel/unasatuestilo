@@ -1,73 +1,109 @@
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="theme-color" content="#F9FF00">
-		<title>Uñas a tu estilo</title>
-  	<link href='https://fonts.googleapis.com/css?family=Montserrat:400, 700|Allerta' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body class="">
-		<header class="header container"> <!-- header -->
-			<div class="header-top">
-				<figure class="flower-1"> <!-- flower-1 -->
-					<img src="images/left.png" width="250px" alt="Logo(a) - Uñas a tu estilo">
-				</figure>
-				<div class="copy">
-					<h1 class="tittle">UÑAS A TÚ ESTILO</h1> <!-- titulo -->
-					<h3>Amady</h3>					
-				</div>
-				<figure class="flower-2"> <!-- flower-2 -->
-					<img src="images/right.png" width="250px" alt="Logo(a) - Uñas a tu estilo">
-				</figure>				
-			</div>
-			<nav class="menu"> <!-- menu -->
-				<ul class="menu-main">
-					<li class="item">Servicios</li>
-					<li class="item">Uñas</li>
-						<ol style="display: none">
-							<li>Juveniles</li>
-							<li>Flores</li>
-							<li>Sencillas</li>
-							<li>Novias</li>
-						</ol>
-					<li class="item">Tratamientos</li>
-						<ol style="display: none">
-							<li>Hongos</li>
-							<li>Débiles</li>
-							<li>Escamosas</li>
-							<li>Manchadas</li>
-						</ol>
-					<li class="item">Separe su cita</li>
-				</ul>
-			</nav>
-		</header>
-	  <section class="slider container"> <!-- slider -->
-		  <div class="slider-item">
-		    <picture class="slider-left">
-		      <img src="images/nail-1.jpg" alt="Uña-1">
-		    </picture>
-		    <picture class="slider-right">
-		      <img src="images/nail-2.jpg" alt="Uña-2">
-		    </picture>	  	
-		  </div>
-	  </section>
-	  <section class="promocion container"><!-- promocion -->
-	    <h2>Promociones</h2>
-	    <div>
-	    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit voluptate blanditiis illo in, soluta exercitationem. Eveniet ea, perferendis optio tempore, porro quidem eos cum hic officiis harum necessitatibus, laboriosam ex?</p>
-	    </div>
-	  </section>
-	  <footer class="footer container"> <!-- footer -->
-	  	<div class="location">
-		    <p>Medellin - Antioquia</p>
-		    <a href="https://www.google.com.co/maps/place/Cra.+74+%2394-9,+Medell%C3%ADn,+Antioquia/@6.2905193,-75.5788495,19z/data=!3m1!4b1!4m5!3m4!1s0x8e442ed4c399b8af:0xa5aa211b4046ae26!8m2!3d6.2905193!4d-75.5783023" target="_blank">Cra. 74 94 - 09</a>
-		    <a href="tel:+573005606427">Celular 300 560 6427</a>		  		
-	  	</div>
-	  	<div class="social">
-		    <a href="">Facebook</a>
-		    <a href="">Twitter</a>	  		
-	  	</div>
-	  </footer>
-	</body>
-	</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Uñas a Tú Estilo</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="glide.core.css">
+    <link rel="stylesheet" href="glide.theme.css">
+    <link rel="stylesheet" href="demo.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  </head>
+  <body class="">
+    <header class="header">
+      <ul class="nav d-flex justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Uñas Decoradas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Separe su Cita</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+      </ul>
+    </header>
+    <div class="module module--horizontal">
+      <div id="Carousel" class="glide">
+
+        <div class="glide__arrows">
+          <button class="glide__arrow prev" data-glide-dir="<">prev</button>
+          <button class="glide__arrow next" data-glide-dir=">">next</button>
+        </div>
+
+        <div class="glide__wrapper">
+          <ul class="glide__track">
+            <li class="glide__slide">
+              <div class="box" style="background-color: #77A7FB;">
+                <img src="1.jpg" alt="" style="width: 100%">
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="box" style="background-color: #FBCB43;">
+                <img src="2.jpg" alt="" style="width: 100%">
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="box" style="background-color: #34B67A;">
+                <img src="3.jpg" alt="" style="width: 100%">
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <section class="about">
+      <p style="text-align: center;">
+        Tengo 6 años de experiencia en manicure y pedicure de hombre y dama. Me gusta mi trabajo, soy delicada y cuidadosa en lo que hago. Me gusta consentir a mis clientes ofreciendoles promociones y tips para el cuidado de sus uñas.
+      </p>
+    </section>
+
+    
+    <script src="glide.js"></script>
+
+    <script>
+
+      var carousel = $('#Carousel').glide({
+        type: 'carousel',
+        paddings: '6%',
+        startAt: 2,
+      });
+
+      var slider = $('#Slider').glide({
+        type: 'slider',
+        paddings: '6%',
+        centered: false,
+        startAt: 3,
+      });
+
+      var slideshow = $('#Slideshow').glide({
+        type: 'slideshow',
+        paddings: '6%',
+        startAt: 1,
+      });
+
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+
+
+
+  </body>
+</html>
