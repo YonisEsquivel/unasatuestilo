@@ -2,11 +2,43 @@
 	background-color: peru;
 }
 
-.header {
-	background-color: white;
+.logo {
+	width: 100%;
 }
+
+.logo img {
+	max-width: 100%;
+    margin: auto;
+}
+
+.header {
+	background-color: #dada57;
+	margin: 0 42px;
+	padding: 10px 0;
+}
+
+	.nav-item {
+		border-right: 1px solid black;
+	}
+
+	.nav-link {
+		padding: 0rem 2rem;
+		color: #292c2f
+	}
+
+	.nav-link:hover{
+		color: #f507a1;
+	}
 
 .main {
 	width: 80%;
 	background-color: red;
+}
+
+.slide{
+	background-color: black;
+}
+
+.box img{
+	width: 100%;
 }

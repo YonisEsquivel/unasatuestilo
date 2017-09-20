@@ -10,87 +10,104 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
+    <!-- SLide -->
 
-    <link rel="stylesheet" href="glide.core.css">
-    <link rel="stylesheet" href="glide.theme.css">
-    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="feature/glide.core.css">
+    <link rel="stylesheet" href="feature/glide.theme.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Demo stylesheet -->
+    <link rel="stylesheet" href="feature/demo.css">
 
   </head>
   <body class="">
-    <header class="header">
-      <ul class="nav d-flex justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Uñas Decoradas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Separe su Cita</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-      </ul>
-    </header>
-    <div class="module module--horizontal">
-      <div id="Carousel" class="glide">
-
-        <div class="glide__arrows">
-          <button class="glide__arrow prev" data-glide-dir="<">prev</button>
-          <button class="glide__arrow next" data-glide-dir=">">next</button>
-        </div>
-
-        <div class="glide__wrapper">
-          <ul class="glide__track">
-            <li class="glide__slide">
-              <div class="box" style="background-color: #77A7FB;">
-                <img src="1.jpg" alt="" style="width: 100%">
-              </div>
-            </li>
-            <li class="glide__slide">
-              <div class="box" style="background-color: #FBCB43;">
-                <img src="2.jpg" alt="" style="width: 100%">
-              </div>
-            </li>
-            <li class="glide__slide">
-              <div class="box" style="background-color: #34B67A;">
-                <img src="3.jpg" alt="" style="width: 100%">
-              </div>
-            </li>
-          </ul>
-        </div>
-
-      </div>
+    <div class="logo">
+      <img src="test.png" alt="">
     </div>
-    <section class="about">
-      <p style="text-align: center;">
-        Tengo 6 años de experiencia en manicure y pedicure de hombre y dama. Me gusta mi trabajo, soy delicada y cuidadosa en lo que hago. Me gusta consentir a mis clientes ofreciendoles promociones y tips para el cuidado de sus uñas.
-      </p>
-    </section>
+      <header class="header">
+        <ul class="nav d-flex justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Uñas Decoradas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Separe su Cita</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
+      </header>
+      <div class="module module--horizontal">
+        <div id="Carousel" class="glide">
 
-    
-    <script src="glide.js"></script>
+          <div class="glide__arrows">
+            <button class="glide__arrow prev" data-glide-dir="<"><</button>
+            <button class="glide__arrow next" data-glide-dir=">">></button>
+          </div>
 
+          <div class="glide__wrapper">
+            <ul class="glide__track">
+              <li class="glide__slide">
+                <div class="box" style="background-color: #77A7FB;">
+                  <img src="1.jpg" alt="">
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="box" style="background-color: #FBCB43;">
+                  <img src="2.jpg" alt="">
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="box" style="background-color: #34B67A;">
+                  <img src="3.jpg" alt="">
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <section class="about">
+        <p>
+          Tengo 6 años de experiencia en manicure y pedicure de hombre y dama. Me gusta mi trabajo, soy delicada y cuidadosa en lo que hago. Me gusta consentir a mis clientes ofreciendoles promociones y tips para el cuidado de sus uñas.
+        </p>
+      </section>
+      <!-- <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="1.jpg" alt="Card image cap">
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="2.jpg" alt="Card image cap">
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="3.jpg" alt="Card image cap">
+        </div>
+      </div> -->
+
+    <!-- Slide -->
+
+    <script src="feature/glide.js"></script>
     <script>
 
       var carousel = $('#Carousel').glide({
         type: 'carousel',
-        paddings: '6%',
+        paddings: '42px',
         startAt: 2,
       });
 
       var slider = $('#Slider').glide({
         type: 'slider',
-        paddings: '6%',
+        paddings: '42px',
         centered: false,
         startAt: 3,
       });
 
       var slideshow = $('#Slideshow').glide({
         type: 'slideshow',
-        paddings: '6%',
+        paddings: '42px',
         startAt: 1,
       });
 
