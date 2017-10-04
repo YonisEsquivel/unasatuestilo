@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Uñas a Tú Estilo</title>
 
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     
@@ -14,7 +16,7 @@
 
     <link rel="stylesheet" href="feature/glide.core.css">
     <link rel="stylesheet" href="feature/glide.theme.css">
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
 
     <!-- Demo stylesheet -->
     <link rel="stylesheet" href="feature/demo.css">
@@ -24,12 +26,12 @@
     <link rel="stylesheet" href="style.css">
 
   </head>
-  <body class="">
+  <body class="body">
     <div class="logo">
       <img src="logo-img.jpg" alt="">
     </div>
     <div class="menu">
-      <header class="header">
+      <header class="header margen">
         <ul class="nav d-flex justify-content-center">
           <li class="nav-item">
             <a class="nav-link" href="#">Inicio</a>
@@ -47,81 +49,84 @@
       </header>
     </div>
       
-      <div class="module module--horizontal">
-        <div id="Carousel" class="glide">
-
-          <div class="glide__arrows">
-            <button class="glide__arrow prev" data-glide-dir="<">
-              <i class="fa fa-chevron-left fa-4x" aria-hidden="true"></i>
-            </button>
-            <button class="glide__arrow next" data-glide-dir=">">
-              <i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
-            </button>
-          </div>
-
-          <div class="glide__wrapper">
-            <ul class="glide__track">
-              <li class="glide__slide">
-                <div class="box" style="background-color: #77A7FB;">
-                  <img src="1.jpg" alt="">
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="box" style="background-color: #FBCB43;">
-                  <img src="2.jpg" alt="">
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="box" style="background-color: #34B67A;">
-                  <img src="3.jpg" alt="">
-                </div>
-              </li>
-            </ul>
-          </div>
-
+    <div class="module module--horizontal">
+      <div id="Carousel" class="glide">
+        <div class="glide__arrows">
+          <button class="glide__arrow prev" data-glide-dir="<">
+            <i class="fa fa-chevron-left fa-4x" aria-hidden="true"></i>
+          </button>
+          <button class="glide__arrow next" data-glide-dir=">">
+            <i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="glide__wrapper">
+          <ul class="glide__track">
+            <li class="glide__slide">
+              <div class="box" style="background-color: #77A7FB;">
+                <img src="1.jpg" alt="">
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="box" style="background-color: #FBCB43;">
+                <img src="2.jpg" alt="">
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="box" style="background-color: #34B67A;">
+                <img src="3.jpg" alt="">
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-      <section class="about">
-        <p>
+    </div>
+    <section class="about margen">
+      <h2>Visítame</h2>
+      <p>
           Tengo 6 años de experiencia en manicure y pedicure de hombre y dama. Me gusta mi trabajo, soy delicada y cuidadosa en lo que hago. Me gusta consentir a mis clientes ofreciendoles promociones y tips para el cuidado de sus uñas.
-        </p>
-      </section>
-      <!-- <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="1.jpg" alt="Card image cap">
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="2.jpg" alt="Card image cap">
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="3.jpg" alt="Card image cap">
-        </div>
-      </div> -->
+      </p>
+    </section>
+    <section class="estilos margen">
+      <div class="card-group">
+          <div class="card escoge">
+            <div class="card-body row align-items-center align-self-center">
+              <h2>Escoge tú Estílo</h2>
+            </div>
+          </div>
+          <div class="card novias">
+            <img class="card-img-top" src="1.jpg" alt="Card image cap">
+          </div>
+          <div class="card test1">
+            <img class="card-img-top" src="2.jpg" alt="Card image cap">
+          </div>
+          <div class="card test2">
+            <img class="card-img-top" src="3.jpg" alt="Card image cap">
+          </div>
+      </div>
 
-    <!-- Slide -->
+    </section>
 
     <script src="feature/glide.js"></script>
     <script>
 
       var carousel = $('#Carousel').glide({
         type: 'carousel',
-        paddings: '42px',
+        paddings: '80px',
         startAt: 2,
       });
 
       var slider = $('#Slider').glide({
         type: 'slider',
-        paddings: '42px',
+        paddings: '80px',
         centered: false,
         startAt: 3,
       });
 
       var slideshow = $('#Slideshow').glide({
         type: 'slideshow',
-        paddings: '42px',
+        paddings: '80px',
         startAt: 1,
       });
-
     </script>
 
     <!-- Optional JavaScript -->

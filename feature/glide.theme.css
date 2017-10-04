@@ -39,10 +39,10 @@
           transform: translateY(-50%);
 }
 .glide--horizontal .glide__arrow.prev {
-  left: -12px;
+  left: 26px;
 }
 .glide--horizontal .glide__arrow.next {
-  right: -14px;
+  right: 25px;
 }
 .glide--vertical .glide__arrow {
   -webkit-transform: translateX(-50%);

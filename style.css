@@ -1,3 +1,12 @@
+.body {
+	background-color: #f1f156;
+}
+
+.margen {
+	box-shadow: 0 0 3.5em 1.5em rgba(0,0,0,0.4);
+	margin: 0 80px;
+}
+
 .container {
 	background-color: peru;
 }
@@ -18,9 +27,7 @@
 
 .header {
 	background-color: #f7f709;
-	margin: 0 42px;
 	padding: 10px 0;
-	box-shadow: 0 0 2.5em 0.5em rgba(0,0,0,0.4)
 }
 
 	.nav-item {
@@ -47,4 +54,45 @@
 
 .box img{
 	width: 100%;
+}
+
+.about {
+	padding: 30px 50px;
+	background-color: #e6afb4;
+}
+
+	.about h2 {
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+	.about p {
+		font-size: 1.3rem;
+	}
+
+
+.estilos {
+	height: 265px;
+	background-color: white;
+}
+
+.card {
+	margin: 0 10px;
+	border: none;
+}
+
+.card img {
+	height: 300px;
+}
+
+.test1 {
+	top: -17px;
+}
+
+.test2 {
+	top: -34px;
+}
+
+.escoge {
+	height: 265px;
 }
